@@ -1,0 +1,110 @@
+***HTML***
+1) are the HTML tags and elements the same thing?
+-no. HTML tags are used to hold the html element. and HTML element holds the content.
+-HTML tags are self closing, and HTML elements are not self closing
+tags:<br>
+elements:<p>this is a paragraph</p>
+
+
+2)what are tags and attributs in HTML?
+-HTML tags are used to hold the html element,html tags help web browsers convert html documents into webpages.
+-HTML attributes are used to describe the characteristics of an html elementin detail
+
+
+3)what are the void elements in HTML?
+-a void elements cannot have any content but may have attribute
+-void elementsare self closing, so they not have a closing tag.
+-ex:area,base,br,hr,img,input,mata
+
+
+4)what are the HTML entities?
+An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ) .
+ex:",',&,<,>
+
+
+5)what are the different types of list in HTML?
+-There are three list types in HTML:
+unordered list — used to group a set of related items in no particular order.
+ordered list — used to group a set of related items in a specific order.
+description list — used to display name/value pairs such as terms and definitions.
+
+
+6)what is class attribute in HTML?
+-The class attribute specifies one or more classnames for an element.
+ The class attribute is mostly used to point to a class in a style sheet.
+ 
+ 
+ 7)what is the diffrence between the id attribute and the class attribute of HTML elements?
+ - “id” is unique in a page and can only apply to at most one element.
+ - “class” selector can apply to multiple elements.
+ 
+ 
+ 8)what are the various formatting tags in HTML?
+ -<b>,<strong>,<i>,<em>,<address>,<mark>,<small>,<big>,<del>,<ins>,<cite>
+ 
+ 
+ 9)how is cell padding diffrent from cell spacing?
+ -Cellpadding specifies the space between the border of a table cell and its contents.
+ -Cellspacing specifies the space between cells
+ 
+ 
+ 10)how can we club two or more rows or columns into a single row or column in an HTML table?
+ -You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data).
+ 
+ 
+ 11)what is the diffrence between a block level element and an inline element?
+ -Block Elements occupy the full width irrespective of their sufficiency.
+ -Inline elements don't start in a new line.
+ -Block elements always start in a line.
+ 
+ 
+ 12)how  to create a hyperlink in a HTML?
+ -To make a hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links.
+ 
+ 
+ 13)what is the use of an iframe tag?
+ -The <iframe> tag specifies an inline frame. 
+ -an inline frame (iframe) is a html  element that loads another html page within the document.
+ 
+ 
+ 14)what is the use of span tag? explain with example?
+ -The <span> tag is an inline container used to mark up a part of a text, or a part of a document. 
+ -The <span> tag is easily styled by CSS or JavaScript using the class or id attribute.
+ -example:we simply use span tag with style in HTML
+ 
+ 
+ 15)how to insert a picture into a background image ofa webpage?
+ -To set the background image of a webpage, use the CSS style.
+ - Under the CSS <style> tag, add the property background-image.
+ 
+ 
+ 16)how are active links different from normal links?
+ -Some browsers recognize an active link when the mouse cursor is placed over that link;
+ -others recognize active links when the link has the focus. 
+ -Those that don't have a mouse cursor over that link is considered a normal link.
+ 
+ 
+ 
+17)what are the diffrent tags to separate sections of text?
+-<blockquate>
+-<p>
+-<br>
+
+
+
+18)what is SVG?
+-Scalable Vector Graphics (SVG) are an XML-based markup language for describing two-dimensional based vector graphics.
+-is a standard graphics file type used for rendering two-dimensional images on the internet. 
+
+
+19)what is diffrence  between HTML & XHTML?
+-HTML: all content can be included in the body element.
+       attributes values are not significant in HTML.
+-XHTML:all contents must be put in blocks.
+       attributes values are inportant in XHTML
+	   
+	   
+
+20)what are logical and physical tags in HTML?
+-logical tag discribes the behaviour , nature of content for the text enclosed inside the tag.they represent the function of text on the page.
+-physical tags are used to decide the apperence of  the text and do not provide any imformation about the text.
