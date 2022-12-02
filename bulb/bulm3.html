@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bulb{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="bulb1.png" alt="" srcset=""> -->
+    <img src="bulb2.png" alt="" srcset="" id="bulb">
+    <button id="h1" onclick="bulb_on()">click on</button>
+    <button id="h2" onclick="bulb_off()">click off</button>
+    <script>
+        function bulb_on(){
+            document.getElementById("bulb").src="bulb1.png"
+            document.getElementById("bulb").style.width="400px"
+        }
+        function bulb_off(){
+            document.getElementById("bulb").src="bulb2.png"
+            document.getElementById("bulb").style.width="400px"
+        }
+    </script>
+
+</body>
+</html>
