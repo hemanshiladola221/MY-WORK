@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .switch{
+            position: relative;
+            height: 40px;
+            width: 70px;
+            display: inline-block;
+        }
+        .slider{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: aliceblue;
+        }
+        .slider::before{
+            position: absolute;
+            content: "";
+            height: 25px;
+            width: 25px;
+            left: 5px;
+            bottom: 5px;
+            /* border-radius: 50%; */
+            background-color: white;
+            transition: .4s;
+        }
+        input:checked + .slider{
+            background-color: #2196f3;
+        }
+        input:focus + .slider{
+                 background-color: #2196f3;
+                 /* box-shadow: 0  0 0 5px #2196f3 ; */
+        }
+        input:checked + .slider:before{
+            transform: translatex(25px);
+        }
+        .slider.round{
+            border-radius: 34px;
+        }
+        .slider.round::before{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>toggle switch</h1>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label>
+    <br> <br>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label> <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+</body>
+</html>
