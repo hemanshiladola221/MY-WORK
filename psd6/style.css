@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: wheat;
+}
+/* header{
+    position: fixed;
+    width: 100%;
+    color: transparent;
+    background-color: transparent;
+    height: 100px;
+    box-shadow: 2px 2px 2px red;
+} */
+/* header:hover{
+
+} */
+@font-face {
+    font-family:"Montserrat";
+    src: url(./Montserrat-Italic-VariableFont_wght.ttf);
+}
+.bgclr{
+    background-color: rgb(91, 192, 192);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+.menutext ul li{
+    padding: 0 20px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.menutext ul li a{
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+.btn{
+    border: 2px solid black;
+    background-color: black;
+    color: antiquewhite;
+    padding: 12px 25px;
+    border-radius: 30px;
+}
+/* section 1 start  */
+.col50{
+    width: 50%;
+}
+.text{
+    width: 50%;
+}
+.text h2{
+    font-size: 65px;
+    font-family: "sans-serif";
+    color: rgb(4, 4, 49);
+    /* width: 40%; */
+}
+.text p{
+    font-size: 23px;
+    margin: 20px 0;
+    color: rgb(4, 4, 49);
+
+}
+.btn2{
+    margin: 50px 0;
+}
+.btn2 a{
+    padding: 15px 22px;
+    background-color: rgb(13, 109, 109);
+    border: 2px solid;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.margin{
+    margin: 40px 0;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 40%;
+    align-items: center;
+    /* height: 10%; */
+}
+.posi-rele{
+    position: relative;
+}
+.posi-abs{
+    position: absolute;
+}
+.layer{
+    bottom: 80px;
+    left: 44px;
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 22px;
+    /* box-shadow: 2px 4px 4px 2px rgb(240, 202, 202); */
+    /* padding: 20px 20px; */
+}
+.textlayer{
+    padding: 20px 20px;
+}
+.textlayer h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    color: rgb(4, 4, 49);
+}
+.textlayer p{
+    font-family: sans-serif;
+    color: rgb(4, 4, 49);
+    margin: 10px 0;
+}
+/* section 2 css  */
+.col12{
+    width: 100%;
+}
+.bgclr2{
+    background-color: rgb(4, 4, 49);
+    padding: 50px 0;
+}
+.apptext{
+    /* align-items: center; */
+    text-align: center;
+    margin: 20px 0;
+}
+.apptext h2{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.apptext p{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.col25{
+    width: 25%;
+}
+.card img{
+    width: 90%;
+      height: 290px; 
+      border-radius: 30px;  
+      margin: 20px 0;
+      box-shadow: 2px 2px 2px wheat;
+}
+.downloadtext h2{
+    color: rgb(56, 180, 180);
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.downloadtext p{
+    color: white;
+    font-size: 20px;
+    width: 70%;
+}
+.btn3{
+    margin: 50px 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+}
+.btn3 a{
+    padding: 15px 22px;
+    background-color: rgb(13, 109, 109);
+    border: 2px solid;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* section 3 css  */
+.backgrnd{
+    padding: 90px 0;
+}
+.images img{
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+.aboutext{
+    width: 60%;
+}
+.aboutext h2{
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+.aboutext p{
+    font-size: 20px;
+    color: rgb(4, 4, 49) ;
+    margin: 20px 0;
+}
+/* section 4 css  */
+.aboutextp{
+    width: 60%;
+    margin: 30px 0;
+}
+.aboutextp h2{
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+.aboutextp p{
+    font-size: 20px;
+    color: rgb(4, 4, 49) ;
+    margin: 20px 0;
+}
+.box2{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(4, 4, 49)  ;
+    /* border: 2px solid black; */
+    border-radius: 22px;
+    color: palevioletred;
+    box-shadow: 2px 2px 2px black;
+    /* box-shadow: 2px 4px 4px 2px rgb(240, 202, 202); */
+    /* padding: 20px 20px; */
+}
+.layer2{
+    right: 74px;
+    top: 202px;
+}
+.layer2text{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 22px;
+    width: 80%;
+}
+/* section 5 css  */
+.i-m-g img{
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px white;
+   
+}
+.i-m-g{
+    text-align: center;
+}
+/* section 6 css  */
+.col40{
+    width: 30%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.im-g img{
+    width: 70%;
+    border-radius: 30px;
+}
+.t-e-x-t{
+    text-align: center;
+    margin: 20px 0;
+}
+.t-e-x-t a{
+    margin: 10px 0;
+}
+.padding{
+    padding: 50px 0;
+}
+/* section 7 css  */
+.newstext{
+    width: 70%;
+}
+.newstext h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.newstext p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.formtext{
+    color: white;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+input{
+    width: 28%;
+    padding: 8px 0;
+}
+input.name{
+    margin: 10px 0;
+}
+input.email{
+    width: 57%;
+    margin: 10px 0;
+}
+.box3{
+    width: 500px;
+    height: 370px;
+    background-color:rgb(4, 4, 49)  ;
+    margin: 20px 80px;
+    border-radius: 30px;
+    /* padding: 20px 20px; */
+}
+.formtext{
+    align-items: center;
+    text-align: center;
+    /* margin: 20px 0; */
+}
+.formtext h2{
+    padding: 20px 0;
+}
+.apptext2{
+    /* align-items: center; */
+    text-align: center;
+    margin: 20px 0;
+}
+.apptext2 h2{
+    color: black;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.apptext2 p{
+    color: black;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.imgs{
+    margin: 0 auto;
+    text-align: center;
+}
+.imgs img{
+    width: 80%;
+   border-radius: 30px;
+   height: 300px;
+}
+.companytext{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: rgb(4, 4, 49);
+    font-family: sans-serif;
+}

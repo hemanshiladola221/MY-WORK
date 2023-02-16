@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let arr1 = [{
+  firstName : "John",
+  lastName  : "Doe",
+   id:"1"
+},{
+  firstName : "hemu",
+  lastName  : "patel",
+  id:"2"
+},{
+  firstName : "John",
+  lastName  : "Doe",
+  id:"3"
+  
+},{
+  firstName : "John",
+  lastName  : "Doe",
+  id:"4"
+
+}];
+let arr2= [{
+  firstName : "John",
+  lastName  : "Doe",
+   id:"1"
+},{
+  firstName : "hemu",
+  lastName  : "patel",
+  id:"2"
+},{
+  firstName : "John",
+  lastName  : "Doe",
+  id:"3"
+  
+},{
+  firstName : "John",
+  lastName  : "Doe",
+  id:"4"
+
+}];
+
+// let arr2 = person.filter(val=>val.id=="2");
+// let commanElements = getCommon(person1,person2);
+// var commonElements = getCommon(arr1, arr2);
+// console.log(arr2);
+// console.log(commanElements);
+
+// if (id==2) {
+//     console.log(firstName)
+    
+// } else {
+//     console.log(lastName)
+// }
+
+// let hemu1 = [{id:'1',name:'A'},{id:'2',name:'B'},{id:'3',name:'C'},{id:'4',name:'D'}];
+// let hemu2 = [{id:'1',name:'A',state:'healthy'},{id:'3',name:'C',state:'healthy'}];
+
+// let output = [{id:'2',name:'B'},{id:'4',name:'D'}];
+// console.log(output);
+
+// let array1 = [
+//   { id: 1, name: "Oliver" },
+//   { id: 2, name: "Liam" },
+// ];
+// let array2 = [
+//   { id: 1, name: "Oliver" },
+//   { id: 3, name: "James" },
+//   { id: 4, name: "Lucas" },
+// ];
+// let newContact = array1.filter((item) => item.id !== array2.id);
+// console.log("newContact :", newContact);
+// console.log("duplicateContacts:");
+
+const array1 = [
+  { id: 1, name: "Oliver" },
+  { id: 2, name: "Liam" },
+];
+const array2 = [
+  { id: 1, name: "Oliver" },
+  { id: 2, name: "Liam" },
+  { id: 4, name: "Lucas" },
+];
+
+const duplicates = [];
+const map = new Map();
+
+const fill = (array) => array.forEach(item => {
+  if (map.has(item.id)) {
+    duplicates.push(item);
+  } else {
+    map.set(item.id, item);
+  }
+});
+
+fill(array1);
+fill(array2);
+
+console.log(duplicates);
+// console.log([...map.values()]);
+    </script>
+
+</html>
